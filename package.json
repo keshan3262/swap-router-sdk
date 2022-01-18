@@ -17,7 +17,8 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "publish": "np"
   },
   "peerDependencies": {},
   "husky": {
@@ -49,6 +50,7 @@
     "@types/async-retry": "^1.4.3",
     "@types/react": "^17.0.38",
     "husky": "^7.0.4",
+    "np": "^7.6.0",
     "size-limit": "^7.0.5",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
