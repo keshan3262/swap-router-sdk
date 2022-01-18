@@ -1,3 +1,4 @@
 {
+  "tests": false,
   "contents": "dist"
 }
