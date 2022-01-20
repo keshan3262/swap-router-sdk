@@ -1,5 +1,6 @@
 export { DexTypeEnum } from './enum/dex-type.enum';
 export { RouteDirectionEnum } from './enum/route-direction.enum';
+export { TokenStandardEnum } from './enum/token-standard.enum';
 export { TradeTypeEnum } from './enum/trade-type.enum';
 
 export { useAllRoutePairs } from './hooks/use-all-route-pairs.hook';
