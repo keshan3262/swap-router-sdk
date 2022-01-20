@@ -1,4 +1,5 @@
 export { DexTypeEnum } from './enum/dex-type.enum';
+export { RouteDirectionEnum } from './enum/route-direction.enum';
 export { TradeTypeEnum } from './enum/trade-type.enum';
 
 export { useAllRoutePairs } from './hooks/use-all-route-pairs.hook';
@@ -7,10 +8,12 @@ export { useTradeWithSlippageTolerance } from './hooks/use-trade-with-slippage-t
 
 export type { Trade, TradeOperation } from './interface/trade.interface';
 
+export { loadAssetContract } from './utils/asset.utils';
 export {
   getBestTradeExactInput,
   getBestTradeExactOutput,
   getTradeInputAmount,
+  getTradeInputOperation,
   getTradeOutputAmount
 } from './utils/best-trade.utils';
 export { getPairFeeRatio } from './utils/fee.utils';

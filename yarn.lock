@@ -1322,19 +1322,19 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@taquito/http-utils@^11.1.0":
+"@taquito/http-utils@^11.0.2", "@taquito/http-utils@^11.1.0":
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/@taquito/http-utils/-/http-utils-11.1.0.tgz#43e53b4f57f4f1aec355c84462ee1839ca6277cf"
   integrity sha512-5kig7XKDcWlAxPx0qkGxyaqvS/rcz7DldcqcNvxAq+Z9Bb5viWIXQm4EaBKZ0KDh5PYjSS0HpbpvoGagIGwowQ==
   dependencies:
     xhr2-cookies "^1.1.0"
 
-"@taquito/michel-codec@^11.1.0":
+"@taquito/michel-codec@^11.0.2":
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/@taquito/michel-codec/-/michel-codec-11.1.0.tgz#a32555ad70d931fd7c2cf3b03d57ba44bf77abe7"
   integrity sha512-Gh1ehstk2OOixeQfc3/XQLPrI4Nr/8gJCWm/Zj5FWtn0GTsxGnZR6W4EjqbWF290b4LMO8FrOAc68+I3EvPaFQ==
 
-"@taquito/michelson-encoder@^11.1.0":
+"@taquito/michelson-encoder@^11.0.2":
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/@taquito/michelson-encoder/-/michelson-encoder-11.1.0.tgz#b3cd4d88e140f9a6a1b5d3b01f4806aee381d8df"
   integrity sha512-XYoegKuQ2wnlQCMkaghI+QAVKH3xnIt7x3ChJvvnbpcKOHihFgWawK0nx1HKoz8GyW6+ZeOC2DgzP5uW0C6WRw==
@@ -1344,7 +1344,7 @@
     bignumber.js "^9.0.1"
     fast-json-stable-stringify "^2.1.0"
 
-"@taquito/rpc@^11.1.0":
+"@taquito/rpc@^11.0.2", "@taquito/rpc@^11.1.0":
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/@taquito/rpc/-/rpc-11.1.0.tgz#ec7bc2de1848330ac69f80f87f22655759d856a7"
   integrity sha512-AUP1eUmjwwWzCSY00dIzGA2Xe9riO6kGG364TT3626qjDzEE/PxVy65oCiNC3BiXdtO4memQzdVI3gcKZYS3hA==
@@ -1354,20 +1354,20 @@
     lodash.get "^4.4.2"
     lodash.set "^4.3.2"
 
-"@taquito/taquito@^11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@taquito/taquito/-/taquito-11.1.0.tgz#96c86fb6c8b7425b0faccca8150fd5127fe278d8"
-  integrity sha512-aGibJBTi+kCCEhz3E+wHyJ6Pf/n30Tv/m/ag2ZMoWMYxWzOHepfkYaPQ6nq4eXUcWzAAxEuAtvgJBUB2pkHlog==
+"@taquito/taquito@11.0.2":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@taquito/taquito/-/taquito-11.0.2.tgz#8d1d66a9c130c247c0609f76e77296e0c95b2362"
+  integrity sha512-gul9ThTK3r7PWpWiJ4+qXqHVwAybsLX7pLupRBu3lxnOMuf0hY9xW5v+2pSRh1IQTIbYEz2yDlOp806By3Sq3A==
   dependencies:
-    "@taquito/http-utils" "^11.1.0"
-    "@taquito/michel-codec" "^11.1.0"
-    "@taquito/michelson-encoder" "^11.1.0"
-    "@taquito/rpc" "^11.1.0"
-    "@taquito/utils" "^11.1.0"
+    "@taquito/http-utils" "^11.0.2"
+    "@taquito/michel-codec" "^11.0.2"
+    "@taquito/michelson-encoder" "^11.0.2"
+    "@taquito/rpc" "^11.0.2"
+    "@taquito/utils" "^11.0.2"
     bignumber.js "^9.0.1"
     rxjs "^6.6.3"
 
-"@taquito/utils@^11.1.0":
+"@taquito/utils@^11.0.2", "@taquito/utils@^11.1.0":
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/@taquito/utils/-/utils-11.1.0.tgz#f179881e0e211dfb2764fbf2ea4fd467ae3426c5"
   integrity sha512-65Ms8lRD7Y7E4X9wqDugtoskRhGvonn4MTVfuWCZJEDHR6iKhy5SO/fy31wWvTc8281BsNelvniiItHgLx69wg==
@@ -1876,7 +1876,7 @@ async-exit-hook@^2.0.1:
   resolved "https://registry.yarnpkg.com/async-exit-hook/-/async-exit-hook-2.0.1.tgz#8bd8b024b0ec9b1c01cccb9af9db29bd717dfaf3"
   integrity sha512-NW2cX8m1Q7KPA7a5M2ULQeZ2wR5qI5PAbw5L0UOMxdioVk9PMZ0h1TmyZEkPYrCvYjDlFICusOu1dlEKAAeXBw==
 
-async-retry@^1.3.3:
+async-retry@1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/async-retry/-/async-retry-1.3.3.tgz#0e7f36c04d8478e7a58bdbed80cedf977785f280"
   integrity sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==
@@ -2093,7 +2093,12 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bignumber.js@^9.0.1, bignumber.js@^9.0.2:
+bignumber.js@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.1.tgz#8d7ba124c882bfd8e43260c67475518d0689e4e5"
+  integrity sha512-IdZR9mh6ahOBv/hYGiXyVuyCetmGJhtYkqLBpTStdhEGjegpPlUawydyaF3pbIOFynJTpllEs+NP+CS9jKFLjA==
+
+bignumber.js@^9.0.1:
   version "9.0.2"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.2.tgz#71c6c6bed38de64e24a65ebe16cfcf23ae693673"
   integrity sha512-GAcQvbpsM0pUb0zw1EI0KhQEZ+lRwR5fYaAp3vPOYuP7aDvGy6cVN6XHLauvF8SOga2y0dcLcjt3iQDTSEliyw==
@@ -6231,6 +6236,13 @@ p-map@^4.0.0:
   dependencies:
     aggregate-error "^3.0.0"
 
+p-memoize@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/p-memoize/-/p-memoize-6.0.1.tgz#786410dcc98d70e1e15cb81de6b38eaad8826e8e"
+  integrity sha512-DG0wxA5fIYor0ypRltebDEZs45ZFRvgztFGv/+glYMdUCIaI9eZKIsNJ2IVihw6LYVUgfhIHtPG5XUgvN+pLtQ==
+  dependencies:
+    mimic-fn "^4.0.0"
+
 p-memoize@^4.0.1:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/p-memoize/-/p-memoize-4.0.4.tgz#90a4c4668866737fc5c8364c56b06f6ca44afb15"
@@ -6239,13 +6251,6 @@ p-memoize@^4.0.1:
     map-age-cleaner "^0.1.3"
     mimic-fn "^3.0.0"
     p-settle "^4.1.1"
-
-p-memoize@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/p-memoize/-/p-memoize-6.0.1.tgz#786410dcc98d70e1e15cb81de6b38eaad8826e8e"
-  integrity sha512-DG0wxA5fIYor0ypRltebDEZs45ZFRvgztFGv/+glYMdUCIaI9eZKIsNJ2IVihw6LYVUgfhIHtPG5XUgvN+pLtQ==
-  dependencies:
-    mimic-fn "^4.0.0"
 
 p-reflect@^2.1.0:
   version "2.1.0"
